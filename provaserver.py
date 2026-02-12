@@ -1,6 +1,6 @@
 import json, sqlite3
 from http.server import BaseHTTPRequestHandler, HTTPServer
-
+"devo creare parametro se cerco qualcosa che ha le virgolette"
 class MyHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/studenti':
