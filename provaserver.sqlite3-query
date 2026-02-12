@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 -- database.sqlite: tabella studenti
 CREATE TABLE studenti (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -8,15 +8,4 @@ CREATE TABLE studenti (
 
 -- id: chiave primaria
 -- nome: testo
-=======
--- database.sqlite: tabella studenti
-CREATE TABLE studenti (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  nome TEXT,
-  voto INTEGER
-);
-
--- id: chiave primaria
--- nome: testo
->>>>>>> 9fac89ef215a74d6acb0b53ac4a826d86e89c230
 -- voto: intero (0..100)
