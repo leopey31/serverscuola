@@ -1,0 +1,10 @@
+-- database.sqlite: tabella studenti
+CREATE TABLE studenti (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome TEXT,
+  voto INTEGER
+);
+
+-- id: chiave primaria
+-- nome: testo
+-- voto: intero (0..100)
